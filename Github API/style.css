@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #444;
+    block-size: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 30px 22px;
+    inline-size: 42rem;
+}
+
+.container h1 {
+    margin-block-end: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.searchBox {
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.searchBox input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    inline-size: 80%;
+    color: #333;
+    font-size: 15px;
+}
+
+.searchBox button {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+.searchBox button:hover {
+    background-color: #1a2533;
+}
+
+.details {
+    margin-block-start: 20px;
+    background-color: #e6e6e6;
+    padding: 20px 25px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    display: none;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-image {
+    block-size: 100px;
+    inline-size: 100px;
+    margin-inline-end: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image img {
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.profile-details {
+    padding: 10px;
+    inline-size: 25rem;
+}
+
+.username {
+    font-size: 13px;
+    color: #2c3e50;
+}
+
+.bio {
+    font-size: 14px;
+    margin-block-start: 10px;
+}
+
+.stats {
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-block-start: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    margin-block-start: 20px;
+}
+
+.media p {
+    inline-size: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
